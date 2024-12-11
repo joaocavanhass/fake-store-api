@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Product List</title>
 </head>
-<body>
+<body class="bg-red-600">
+    <div class="flex justify-center flex-col items-center">
     <h1>Product List with APIs</h1>
     <input type="text" id="filter-input" placeholder="Digite um nome ou categoria">
-    <div id="product-list"></div>
+    </div>
+    <div id="product-list" class="border-2"></div>
     <script src="/src/scripts/script.js"></script>
 </body>
 </html>
